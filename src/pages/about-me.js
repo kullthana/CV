@@ -1,9 +1,14 @@
 import {
+  DatabaseOutlined,
   EnvironmentOutlined,
   GithubOutlined,
   GitlabOutlined,
+  GlobalOutlined,
   LinkedinOutlined,
   MailOutlined,
+  ReadOutlined,
+  SoundOutlined,
+  TrophyOutlined,
 } from '@ant-design/icons'
 import { Avatar, Button, Col, Divider, Layout, Row, Space } from 'antd'
 import 'antd/dist/antd.css'
@@ -62,6 +67,15 @@ function AboutMePage() {
                   </Link>
                 </p>
                 <p>
+                  <LinkedinOutlined className="text-lg mr-2" />
+                  <Link
+                    href="https://www.linkedin.com/in/kullanan-thanachotanan-7976b9206/"
+                    className="text-third hover:text-third hover:underline"
+                  >
+                    LinkedIn
+                  </Link>
+                </p>
+                <p>
                   <EnvironmentOutlined className="text-lg mr-2" />
                   Chiang Mai, Thailand
                 </p>
@@ -69,11 +83,26 @@ function AboutMePage() {
                 <Divider className="w-full" />
 
                 <p className="font-bold text-2xl">Hobbies</p>
-                <p>Reading novel</p>
-                <p>Playing games</p>
-                <p>Listening Japanese music</p>
-                <p>Book collecting</p>
-                <p>Learning languages</p>
+                <p>
+                  <ReadOutlined className="text-lg mr-2" />
+                  Reading novel
+                </p>
+                <p>
+                  <TrophyOutlined className="text-lg mr-2" />
+                  Playing games
+                </p>
+                <p>
+                  <SoundOutlined className="text-lg mr-2" />
+                  Listening Japanese music
+                </p>
+                <p>
+                  <DatabaseOutlined className="text-lg mr-2" />
+                  Book collecting
+                </p>
+                <p>
+                  <GlobalOutlined className="text-lg mr-2" />
+                  Learning languages
+                </p>
 
                 <Divider className="w-full" />
 
