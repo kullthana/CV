@@ -12,5 +12,14 @@ module.exports = {
       },
     },
     `gatsby-plugin-antd`,
+    `gatsby-plugin-web-font-loader`,
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Droid Sans', 'Droid Serif'],
+        },
+      },
+    },
   ],
 }

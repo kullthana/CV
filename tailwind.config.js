@@ -1,11 +1,19 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  future: {
+    purgeLayersByDefault: true,
+    removeDeprecatedGapUtilities: true,
+  },
+  purge: {
+    content: ['./src/**/*.tsx'],
+  },
   theme: {
-    extend: {},
+    textColor: {
+      primary: '#32AFB2',
+      white: '#ffffff',
+      secondary: '#298f91',
+      third: '#555E70',
+    },
   },
-  variants: {
-    extend: {},
-  },
+  variants: {},
   plugins: [],
 }
