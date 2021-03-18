@@ -15,9 +15,17 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "antd": "^4.14.0",
+    "autoprefixer": "^10.2.5",
     "gatsby": "^3.0.1",
+    "gatsby-plugin-antd": "^2.2.0",
     "gatsby-plugin-gatsby-cloud": "^2.1.0",
+    "gatsby-plugin-postcss": "^4.1.0",
+    "postcss": "^8.2.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^2.0.4"
   }
 }
